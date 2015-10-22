@@ -1,0 +1,141 @@
+.dark {
+	color:black;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: white; /*instead of black */
+    }
+}
+
+.navbar-custom .nav li.active a {
+    background-color: #cfcfcf; /* changed from black */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: white; /* changed from black */
+}
+
+a {
+	color: white;
+}
+
+.btn-default {
+	    border: 1px solid white;
+	    color: black;
+	    border-color: black;
+}
+
+.btn-white {
+		border: 1px solid white;
+	    color: white;
+	    border-color: white;
+}
+
+
+.btn-default:hover,
+.btn-white:hover,
+.btn-default:focus {
+    border: 1px solid #cfcfcf;
+    outline: 0;
+    color: #000;
+    background-color: #cfcfcf;
+}
+
+.lighter {
+	color:white;
+	border:white;
+	outline: white;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: white; /* from black */
+    color: black; /* from none */
+}
+
+.stats-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/melons_whole.png) no-repeat center center scroll; /* whatever background I want */
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 100px;
+    }
+
+    .help-section {
+        padding-top: 100px;
+    }
+
+    .stats-section {
+        padding: 100px 0;
+    }
+
+    .more-section {
+        padding: 100px 0;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 150px;
+    }
+}
+
+
+.more-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    /*background: url(../img/circuits.png) no-repeat center center scroll; */ /* whatever background I want */
+    background: no-repeat center center scroll;;
+    /*background-color: #000;*/
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.btn-circle { /* make button black */
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid black;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: black;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
